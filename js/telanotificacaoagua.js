@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     else{
         agua_bebida = localStorage.getItem("agua_bebida");
-        spans[0].innerHTML = (agua_bebida).toFixed(3);
+        spans[0].innerHTML = agua_bebida;
         spans[1].innerHTML = parseFloat(localStorage.getItem("agua_diaria") - agua_bebida).toFixed(3);
     }
 
