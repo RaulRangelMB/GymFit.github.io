@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         else{
             p = document.createElement('p')
-            p.innerHTML = "Atenção! Insira um valor em número para o peso!";
+            p.innerHTML = "Atenção! Insira um valor em número!";
             if (document.querySelectorAll('p').length<4){
                 body.append(p);
             }
