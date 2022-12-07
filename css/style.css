@@ -1,0 +1,302 @@
+body{
+    background-color: #F7F7F7;
+}
+
+h1{
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Lusitana', serif;
+    margin: 0.2rem;
+}
+
+h2{
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lusitana', serif;
+    margin: 0.2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family: 'Lusitana', serif;
+    margin: 0.2rem;
+}
+
+h4{
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0.2rem;
+}
+
+input{
+    font-size: 1.15rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 550px;
+    justify-content: space-evenly;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.coluna-separada {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.coluna-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.coluna-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.linha-alignCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linha-continua {
+    display: flex;
+    flex-direction: row;
+}
+
+.linha-junta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centralizado{
+    align-self: center;
+}
+
+.centralizado-linha{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.centralizado-coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macronutrientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 500px;
+    min-width: 600px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.display-cancelar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.display-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-central-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-pequeno{
+    background-color: #BFBFBF;
+}
+
+.display-grande{
+    display: flex;
+    justify-content: center;
+    background-color: #BFBFBF;
+    width: 4rem;
+}
+
+.display-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFBFBF;
+    width: 10rem;
+    height: 5rem;
+}
+
+.botao-central{
+    background-color: #00F700;
+    align-self: center;
+    margin-top: 2em;
+    padding: 0.3rem;
+}
+
+.menu-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coluna-graficos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav{
+    display: flex;
+    position: fixed;
+    width: 100%;    
+    bottom: 0rem;
+    min-height: 4em;
+    border-top: 0.1rem solid #171E21;
+    background-color: #BFBFBF;
+}
+
+.footer-items-list{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barra-vertical{
+    border: 0.01rem solid #171E21;
+    height: 100%;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    background-color: #BFBFBF;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 40%;
+    min-height: 450px;
+}
+
+.caixa-grande{
+    display: flex;
+    flex-direction: column;
+    background-color: #BFBFBF;
+    max-width: 80%;
+    min-height: 600px;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.imagem-exercicio{
+    align-self: center;
+    width: 95%;
+    height: 95%;
+}
+
+.imagem-exercicio2{
+    width: 50%;
+    align-self: center;
+}
+
+.texto-exercicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
+
+.exercicio-treino{
+    width: 40%;
+}
+
+.imagem-icone{
+    width: 5%;
+    height: 5%;
+}
+
+.icone{
+    height: 5em;
+    width: 5em;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.icone-pequeno{
+    height: 3em;
+    width: 3em;
+    padding: 0.1em 0.2em;
+}
+
+.imagem-grafico{
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+}
+
+.imagem-grande{
+    align-self: center;
+    height: 15em;
+    width: 10em;
+}
